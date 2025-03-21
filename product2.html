@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Herbal Tea</title>
+    <script src="https://kit.fontawesome.com/1b5e5f33ec.js" crossorigin="anonymous"></script>
+    <link rel = "icon" type = "image/gif" href = "images/favicon-16x16.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <!-- Logo Area -->
+      <div class="logo-container">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" class="tea-icon">
+            <path d="M2,21V19H20V21H2M20,8V5H18V8H20M20,3A2,2 0 0,1 22,5V8A2,2 0 0,1 20,10H18V13A4,4 0 0,1 14,17H8A4,4 0 0,1 4,13V3H20M16,5H6V13A2,2 0 0,0 8,15H14A2,2 0 0,0 16,13V5Z" />
+          </svg>
+        </div>
+        <h1 class="site-title">Zen Herbal Tea</h1>
+      </div>
+      
+      <!-- Navigation -->
+      <nav class="main-navigation">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        
+        <ul class="nav-menu" id="primary-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#products" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#about-content" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#product-consultation" class="nav-link">Consult</a>
+          </li>
+          <i class="fa-regular fa-circle-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+    </div>
+    
+    <!-- Decorative Elements -->
+    <div class="header-decoration">
+      <div class="leaf leaf-1"></div>
+      <div class="leaf leaf-2"></div>
+      <div class="leaf leaf-3"></div>
+    </div>
+  </header>
+    
+
+
+  <section class="hero-container">
+    <div class="hero-content">
+        <h1>Discover the Art of Tea</h1>
+        <p>Immerse yourself in a world of exquisite herbal blends, carefully curated from the most pristine botanical gardens. Each sip is a journey of wellness and flavor.</p>
+        <div class="hero-cta">
+            <a href="#product-container" class="btn btn-primary">Shop Now</a>
+            <a href="index.html#zen-tea-section" class="btn btn-secondary">Learn More</a>
+        </div>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="images/Rectangle 1.png" alt="Cup of herbal tea with steam">
+                <div class="slide-overlay">
+                    <h3>Herbal Tea Experience</h3>
+                    <p>Discover the essence of natural wellness</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/Rectangle 48.png" alt="Herbal tea packaging">
+                <div class="slide-overlay">
+                    <h3>Premium Packaging</h3>
+                    <p>Carefully crafted for the perfect brew</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/Rectangle 49.png" alt="Herbal tea ingredients">
+                <div class="slide-overlay">
+                    <h3>Natural Ingredients</h3>
+                    <p>Sourced from the finest botanical gardens</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="navigation-buttons">
+            <button class="prev" aria-label="Previous Slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 18l-6-6 6-6"/>
+                </svg>
+            </button>
+            <button class="next" aria-label="Next Slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="dots-container">
+            <span class="dot active" aria-label="Slide 1"></span>
+            <span class="dot" aria-label="Slide 2"></span>
+            <span class="dot" aria-label="Slide 3"></span>
+        </div>
+    </div>
+  </section>
+
+    <div id="product-container">
+      <div class="product-card">
+          <div class="product-image-wrapper">
+              <div class="image-overlay"></div>
+              <img src="images/mysticblend.png" alt="Zen Herbal Tea" class="product-image">
+              <div class="tea-elements">
+                  <div class="tea-leaf tea-leaf-1"></div>
+                  <div class="tea-leaf tea-leaf-2"></div>
+                  <div class="tea-leaf tea-leaf-3"></div>
+              </div>
+          </div>
+          <div class="product-details">
+              <h1 class="product-title2">Mystic Blend</h1>
+              <p class="product-description">
+                This refreshing variant combines the calming properties of chamomile and lemon balm with the invigorating flavor of peppermint. Mint Bliss not only helps to relax but also provides a refreshing and cooling sensation, making it ideal for a mid-afternoon pick-me-up or a soothing evening tea.
+              </p>
+              <a href="index.html#product-consultation" id="bruh">
+                <div class="product-cta">
+                    <button class="buy-now">Buy Now</button>
+                    <span class="price2">$12.99</span>
+                </div>
+              </a>
+          </div>
+      </div>
+    </div>
+
+    <div class="compositions-container">
+      <div class="composition chamomile">
+          <div class="composition-content">
+              <div class="content-wrapper">
+                  <h3>Chamomile</h3>
+                  <p>Known for its calming effects, chamomile is a gentle herb that helps reduce stress and promote relaxation.</p>
+                  <div class="composition-details">
+                      <div class="detail-item">
+                          <span class="detail-icon">🌿</span>
+                          <span class="detail-desc">Natural Calming</span>
+                      </div>
+                      <div class="detail-item">
+                          <span class="detail-icon">💆</span>
+                          <span class="detail-desc">Stress Relief</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="composition-image">
+              <div class="image-wrapper">
+                  <div class="image-overlay"></div>
+                  <img src="images/compo1crop.png" alt="Chamomile Flowers">
+              </div>
+          </div>
+      </div>
+
+      <div class="composition peppermint">
+          <div class="composition-content">
+              <div class="content-wrapper">
+                  <h3>Peppermint</h3>
+                  <p>Known for its refreshing and invigorating properties, peppermint adds a cooling sensation and aids in digestion.</p>
+                  <div class="composition-details">
+                      <div class="detail-item">
+                          <span class="detail-icon">❄️</span>
+                          <span class="detail-desc">Cooling Sensation</span>
+                      </div>
+                      <div class="detail-item">
+                          <span class="detail-icon">🌬️</span>
+                          <span class="detail-desc">Refreshing</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="composition-image">
+              <div class="image-wrapper">
+                  <div class="image-overlay"></div>
+                  <img src="images/Peppermint.png" alt="Lavender Flowers">
+              </div>
+          </div>
+      </div>
+
+      <div class="composition lemon-balm">
+          <div class="composition-content">
+              <div class="content-wrapper">
+                  <h3>Lemon Balm</h3>
+                  <p>This herb has a mild, pleasant citrus flavor and is traditionally used to uplift the mood and reduce tension.</p>
+                  <div class="composition-details">
+                      <div class="detail-item">
+                          <span class="detail-icon">😊</span>
+                          <span class="detail-desc">Mood Booster</span>
+                      </div>
+                      <div class="detail-item">
+                          <span class="detail-icon">🍋</span>
+                          <span class="detail-desc">Citrus Flavor</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="composition-image">
+              <div class="image-wrapper">
+                  <div class="image-overlay"></div>
+                  <img src="images/compo3.png" alt="Lemons">
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="products">
+      <div class="container">
+        <h3 id="product-title">Other Products</h3>
+        <div id="blackline2"></div>
+        <div class="panel-container">
+          <div class="panel">
+            <a href="product1.html">
+            <img src="images/Rectangle 1.png" alt="Herbal tea with dry ingredients">
+            <div class="panel-content">
+              <h3>Herbal Infusion</h3>
+              <p>A calming blend of organic herbs and flowers</p>
+            </div>
+            </a>
+          </div>
+          
+          <div class="panel">
+            <a href="product3.html">
+            <img src="images/Rectangle 11.png" alt="Citrus tea with orange slices">
+            <div class="panel-content">
+              <h3>Citrus Delight</h3>
+              <p>Refreshing citrus notes with a hint of spice</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <p id="tap">Tap a product to view the details</p>
+      </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer-container">
+          <div class="footer-left">
+            <h3>Zen Herbal Tea</h3>
+            <div class="contact-item">
+              <i class="fa fa-map-marker"></i>
+              <h4>123 Serene Street, Harmony District, Jakarta, Indonesia 14001</h4>
+            </div>
+          </div>
+          
+          <div class="footer-right">
+            <div class="contact-item">
+              <i class="fa fa-envelope"></i>
+              <h4><a href="mailto:zenherbaltea@gmail.com">zenherbaltea@gmail.com</a></h4>
+            </div>
+            <div class="contact-item" id="phone2">
+              <i class="fa fa-phone"></i>
+              <h4><a href="tel:0814-5678-9012">0814-5678-9012</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer2">
+        <div id="container">
+          <h3>Designed by Tian Lauren</h3>
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+  </body>
+</html>

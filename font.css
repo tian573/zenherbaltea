@@ -1,0 +1,39 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("fonts/Livvic/Livvic-Medium.ttf");
+    font-family: "Livvic Medium";
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("fonts/Livvic/Livvic-Bold.ttf");
+    font-family: "Livvic Bold";
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("fonts/Livvic/Livvic-SemiBold.ttf");
+    font-family: "Livvic SemiBold";
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("fonts/Shizuru/Shizuru-Regular.ttf");
+    font-family: "Shizuru Regular";
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
